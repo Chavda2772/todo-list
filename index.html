@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Todo List</title>
+  </head>
+
+  <body>
+    <h1>Todos</h1>
+    <form id="form" autocomplete="off">
+      <div class="input-control">
+        <input type="text" name="todo" id="input" placeholder="Enter Task" />
+        <!-- <div class="add">
+          <button class="fas fa-plus"></button>
+        </div> -->
+      </div>
+
+        <ul class="todos" id="todos">
+          <li class="completed">
+            <div class="content">
+              <span>First list</span>  
+            </div>
+            <!-- <div class="action">
+              <button id="edit">
+                <i class="fas fa-pen"></i>
+              </button>
+              <button id="delete" type="button">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div> -->
+            <hr>
+          </li>
+          <li>
+            <div class="content">
+              <span>Second list</span>  
+            </div>
+            <!-- <div class="action">
+              <button id="edit">
+                <i class="fas fa-pen"></i>
+              </button>
+              <button id="delete" type="button">
+                <i class="fas fa-trash"></i>
+              </button>
+            </div> -->
+          </li>
+        </ul>
+    </form>
+    <small>
+      left click to toggel complet <br />
+      Right Click to delete
+    </small>
+    <script src="main.js"></script>
+  </body>
+</html>
