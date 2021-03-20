@@ -75,6 +75,8 @@ form{
   line-height: 1rem;
   background-color: rgb(230, 230, 230);
   overflow: hidden;
+  user-select: none;
+  cursor: pointer;
 }
 
 .todos li .content span{
