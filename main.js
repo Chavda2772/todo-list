@@ -68,6 +68,7 @@ function addTodo(todo) {
 
     todoList.appendChild(listEl);
     updateLocalStorage();
+    window.scrollTo(0, document.body.scrollHeight);
   }
 }
 
