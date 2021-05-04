@@ -6,15 +6,17 @@
 
 ## 🌱 Preview 🌱
 
-<img src="https://raw.githubusercontent.com/Chavda2772/card-expanding/main/images/Expanding_cards-min.jpg" alt="Card Exapnd Image" width="400" height="400" />
+<img src="https://raw.githubusercontent.com/Chavda2772/todo-list/main/images/Todo_List-min.jpg" alt="Todo List" width="400" height="400" />
 
 ## :balance_scale:Features:balance_scale:
 
 - Responsive design.
+- Left click to toggle complete and Incomplete task
+- Can add as many todos as need.
 
 ## :crossed_swords: Technical Brief Description :crossed_swords:
 
-- Technical description
+- In this project localStorage is used to store User Data.
 
 ## :chains: Live Demo :chains:
 
