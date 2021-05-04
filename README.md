@@ -11,7 +11,8 @@
 ## :balance_scale:Features:balance_scale:
 
 - Responsive design.
-- Left click to toggle complete and Incomplete task
+- Left click to toggle complete and Incomplete task.
+- Right Click to Delete Todo.
 - Can add as many todos as need.
 
 ## :crossed_swords: Technical Brief Description :crossed_swords:
